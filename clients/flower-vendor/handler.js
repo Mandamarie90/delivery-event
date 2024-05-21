@@ -1,5 +1,5 @@
 const io = require('socket.io-client');
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('http://delivery-dev.us-west-2.elasticbeanstalk.com/');
 
 const store = '1-800-flowers';
 
