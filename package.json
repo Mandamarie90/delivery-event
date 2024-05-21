@@ -2,9 +2,9 @@
   "name": "delivery-event",
   "version": "1.0.0",
   "description": "I'm currently working on a project aimed at developing an event-driven application called CAPS, which mimics a real-world delivery service. In this system, vendors will dispatch packages via CAPS, and drivers will ensure these packages reach customers. The entire setup will be powered by Node.js, leveraging its capabilities for building modular and real-time interactions across various system components.",
-  "main": "eventPool.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
